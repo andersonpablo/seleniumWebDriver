@@ -21,11 +21,15 @@ public final class Negocio {
   }
 
   public Calendar getData() {
-    return data;
-  }
+	  Calendar copia = Calendar.getInstance();
+	  copia.setTimeInMillis(this.data.getTimeInMillis());
+	  return copia;
+	}
   
   public double getVolume() {
 	  return preco * quantidade;
 	}
+  
+  
 
 }
