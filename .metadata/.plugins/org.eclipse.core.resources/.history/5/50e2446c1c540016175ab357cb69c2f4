@@ -1,0 +1,7 @@
+package com.anderson.teste;
+
+import junit.framework.TestCase;
+
+public class ChecarNumeroPrimoTest extends TestCase {
+
+}

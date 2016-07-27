@@ -1,0 +1,5 @@
+package com.anderson.junit.parametized;
+
+public class PrimeNumberChecker {
+
+}

@@ -1,0 +1,14 @@
+package com.anderson.junit.parametized;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class PrimeNumberCheckerTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}
